@@ -1,24 +1,6 @@
 instructions:
-
-To run this program, open up the command line. 
-It should look something like this:
-c:\users\username>
-Use cd to move to the file you saved it in.
-For example, if you saved it in a folder on your desktop, type cd desktop\foldername
-It should look like this when you are finished:
-c:\users\username> cd desktop\foldername
-When you are in the folder you want, type caesarcipher. Instructions will display on the screen.
-
-
-If you need help understanding what the instructions mean, here is an explanation:
--e means encrypt, -d means decrypt. 
-you type in either -e or -d, then the cipher key, then the file that you want to encrypt/decrypt.
-If for some reason you don't know how a Cipher works, the key is basically your password.
-Like if you typed 20 as your key to encrypt the message, you will need to type 20 when decrypting it.
-
-Encrypting looks like this. I used 83 as my key, and inputfile.txt as the file I want to encrypt: 
--e 83 inputfile.txt
-A file named "encrypted.txt" will appear with the hidden message.
-To decrypt, you just type the same thing but type -d instead and you type the name of the encrypted file instead.
-It looks like this:
--d 83 encrypted.txt
+This program is meant to be run in the command line. 
+Open it with Python3 in the terminal/command line or in your favorite IDE, and choose whether you want to encrypt or decrypt.
+If you choose to encrypt, type in the filepath of the file you need encrypted, and choose your numerical key.
+The encrypted message will be stored in encrypted.txt.
+I have it set so that you still have to type in the name of encrypted.txt, in case if its name gets changed. 
